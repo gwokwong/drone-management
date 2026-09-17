@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/前端-Vue3%20%7C%20Element%20Plus-blue" />
   <img src="https://img.shields.io/badge/后端-Go%20%7C%20Gin-brightgreen" />
   <img src="https://img.shields.io/badge/数据库-SQLite%20%2F%20MySQL-orange" />
-  <img src="https://img.shields.io/badge/license-MIT-green" />
+  <img src="https://img.shields.io/badge/license-保留所有权利-lightgrey" />
 </p>
 
 ---
@@ -188,6 +188,3 @@ DroneManagement/
 - **QQ：467643531**
 - 支持需求调研、界面换肤、国产数据库适配、第三方系统对接等定制化服务。
 
----
-
-> 本项目基于 art-design-pro 前端模板框架进行二次开发，遵循其 MIT 开源协议。

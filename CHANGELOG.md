@@ -643,7 +643,7 @@ If you want to contribute to the project, please check [CONTRIBUTING.md](./CONTR
 
 ## License
 
-[MIT License](./LICENSE)
+[保留所有权利](./LICENSE)
 
 ---
 

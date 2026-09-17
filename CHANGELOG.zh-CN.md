@@ -643,7 +643,7 @@
 
 ## 许可证
 
-[MIT License](./LICENSE)
+[保留所有权利](./LICENSE)
 
 ---
 
