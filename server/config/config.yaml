@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  mode: debug # debug | release
+
+database:
+  # 默认使用本地 sqlite，零依赖、开箱即用。
+  # 如需切换到 MySQL，将 driver 改为 "mysql" 并填写下方 mysql 配置即可，业务代码无需改动。
+  driver: sqlite
+  sqlite:
+    path: data/drone.db
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: root
+    dbname: drone
+    charset: utf8mb4
+
+jwt:
+  secret: drone-server-default-secret # 生产环境请修改为随机强密钥
+  expire: 72h
+
+cors:
+  allowOrigins:
+    - "*"
+
+app:
+  # 是否在启动时写入演示业务数据（无人机 / 储存室 / 告警 / 进出记录 / 摄像头等）。
+  # false（默认）：仅初始化角色与管理员账号，系统为干净的空系统，不含任何测试数据。
+  # true：写入演示数据，便于演示与联调。
+  # 也可用环境变量临时覆盖：SEED_DEMO_DATA=true
+  seedDemoData: true
